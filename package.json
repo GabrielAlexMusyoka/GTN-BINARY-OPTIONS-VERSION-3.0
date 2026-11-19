@@ -1,0 +1,24 @@
+{
+  "name": "gtn-binary-options",
+  "version": "1.0.0",
+  "description": "GTN Trading Platform Backend",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js",
+    "dev": "node --watch backend.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.16.3",
+    "pg-mem": "^3.0.14",
+    "ws": "^8.23.0"
+  }
+}
